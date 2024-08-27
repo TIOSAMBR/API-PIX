@@ -50,5 +50,11 @@ Frontend: HTML, CSS e JavaScript
 
 Ambiente de Desenvolvimento: VSCode
 
+# Imagem da API PIX:
+
+![image](https://github.com/user-attachments/assets/cd44cab9-ef0b-444d-a8be-3a0eb312cf62)
+![image](https://github.com/user-attachments/assets/a2e7ad83-8cb3-42dc-a98e-37edf626c2bc)
+
+
 # Conclusão:
 Este código implementa uma solução de pagamento eficiente e moderna com Pix, permitindo uma experiência fluida e integrada para os usuários. A modularidade dos métodos e a clareza da interface garantem facilidade de manutenção e futuras melhorias. A estrutura está pronta para evoluções como a adição de novos métodos de pagamento ou melhorias na usabilidade.
