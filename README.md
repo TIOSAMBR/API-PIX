@@ -42,7 +42,7 @@ A lógica principal de interação com o usuário ocorre nos métodos gerarQRCod
 Os métodos estão vinculados aos componentes HTML por meio de eventos de clique (onClick) que desencadeiam as funções relevantes para cada ação, garantindo que a interação com a página seja responsiva e fluida.
 
 # Ferramentas Utilizadas:
-Linguagem Backend: Django
+Linguagem Backend: Python
 
 Integração de Pagamento: API Pix (Mercado Pago / Gerencianet)
 
