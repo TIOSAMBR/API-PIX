@@ -43,8 +43,12 @@ Os métodos estão vinculados aos componentes HTML por meio de eventos de clique
 
 # Ferramentas Utilizadas:
 Linguagem Backend: Django
+
 Integração de Pagamento: API Pix (Mercado Pago / Gerencianet)
+
 Frontend: HTML, CSS e JavaScript
+
 Ambiente de Desenvolvimento: VSCode
+
 # Conclusão:
 Este código implementa uma solução de pagamento eficiente e moderna com Pix, permitindo uma experiência fluida e integrada para os usuários. A modularidade dos métodos e a clareza da interface garantem facilidade de manutenção e futuras melhorias. A estrutura está pronta para evoluções como a adição de novos métodos de pagamento ou melhorias na usabilidade.
