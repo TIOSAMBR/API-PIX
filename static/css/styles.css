@@ -1,0 +1,125 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type="text"]::placeholder,
+input[type="number"]::placeholder,
+input[type="email"]::placeholder {
+    color: #aaa;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* Seção do QR Code */
+#qr-code-section {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#qr-code {
+    max-width: 300px; /* Define a largura máxima do QR Code */
+    width: 100%; /* Ajusta a largura ao container */
+    height: auto; /* Mantém a proporção do QR Code */
+    margin-bottom: 20px;
+    border: 3px solid #000000; /* Borda azul para destacar */
+    border-radius: 12px; /* Borda arredondada */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra para efeito de profundidade */
+    padding: 10px; /* Espaçamento interno */
+    background-color: #ffffff; /* Fundo branco para destacar o QR Code */
+}
+
+/* Input para copiar código */
+#copiar {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #f1f3f5; /* Fundo levemente cinza claro */
+    color: #333;
+    box-sizing: border-box;
+    transition: background-color 0.3s, border-color 0.3s; /* Transições suaves */
+}
+
+#copiar:focus {
+    border-color: #000000; /* Cor da borda ao focar */
+    background-color: #ffffff; /* Fundo branco ao focar */
+    outline: none; /* Remove a borda padrão de foco */
+}
+
